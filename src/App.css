@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(218, 214, 214);
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+* {
+  font-family: "Poppins";
+}
+
+.title {
+  color: rgb(49, 49, 49);
+  border-bottom: dashed;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.calculator {
+  height: 80vh;
+  width: 270px;
+  padding: 8px;
+  border-radius: 25px;
+  background-color: black;
+}
+
+.calculator .calculator-content {
+  background-color: #f1f3ee;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.calculator .calculator-content .display {
+  width: 100%;
+  height: 140px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #dfe5db;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.calculator .calculator-content .display .display-text {
+  margin-right: 10px;
+  width: 90%;
+  height: 40px;
+  font-size: 45px;
+  text-align: end;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.calculator .calculator-content .display .display-currentOperation {
+  width: 30px;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  height: 20px;
+  font-size: 28px;
+  text-align: end;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.calculator .calculator-content .output-display {
+  width: 100%;
+  height: 70px;
+  background-color: #dfe5db;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.calculator .calculator-content .output-display .output-display-text {
+  margin-right: 10px;
+  margin-top: -25px;
+  width: 90%;
+  font-size: 25px;
+  text-align: end;
+  font-weight: 600;
+  background: none;
+  border: none;
+  outline: none;
+  color: #272727;
+  font-family: "Open Sans";
+}
+.calculator .calculator-content .pad-area {
+  width: 93%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 40px 0px 10px 0px;
+  padding: 0 10px;
+}
