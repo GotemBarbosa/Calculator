@@ -6,6 +6,8 @@ A simple and useful calculator.
 ## The project:
 
 
+https://user-images.githubusercontent.com/50121055/154874000-fa0571eb-1314-4391-86fb-e20f7d0ec015.mp4
+
 
 ---
 Calculators are not only one of the most useful tools available, but they are
